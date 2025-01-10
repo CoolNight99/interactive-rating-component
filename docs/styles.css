@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "Overpass";
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+p {
+    font-size: 0.9375rem;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+/* divs */
+.rating-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1.25rem;
+    width: 21.875rem;
+    height: 21.875rem;
+    padding: 1.25rem;
+    line-height: 1.5625rem;
+}
+
+.rating-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+/* buttons */
+button {
+    border: none;
+    font-family: "Overpass";
+    cursor: pointer;
+}
+
+.rating-btn {
+    color: hsl(217, 12%, 63%);
+    border-radius: 100%;
+    padding: 0.3125rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: contain;
+    object-position: center;
+    background-color: #404145;
+}
+
+.rating-btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+}
+
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.125rem;
+    color: hsl(213, 19%, 18%);
+    padding: 0.625rem 0;
+}
+
+.rating-btn:active,
+.submit-btn:active {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(213, 19%, 18%);
+}
+
+.submit-btn:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* images */
+.star-icon {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    padding: 0.625rem;
+    background-color: #404145;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 1.875rem;
+}
+
+/* text */
+.empty-rating-warning {
+    color: red;
+    display: none;
+}
+
+/* attribution */
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0.625rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 320px) {
+
+}
