@@ -50,7 +50,7 @@ submitBtn.addEventListener("click", () => {
         
         main.innerHTML =
         `<div class="thank-you-card">
-            <img class="thank-you-img" src="./images/illustration-thank-you.svg">
+            <img class="thank-you-img" src="./images/illustration-thank-you.svg" alt="thank you image">
             <div class="selected-rating-div">You selected ${localStorage.getItem('selectedRating')} out of 5</div>
             <h1>Thank you!</h1>
             <p class="thank-you-msg">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
